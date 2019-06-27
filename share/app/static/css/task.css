@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    background-image: url(../img/epytodo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/*MENU*/
+
+nav.menu ul li.but a {
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+}
+
+nav.menu ul li.but:hover a {
+    background-color: white;
+    transition: 0.3s all;
+}
+nav.menu ul li.but {
+    list-style-type: none;
+}
+
+/* CONTENU */
+
+.sidebar {
+    background-color: gainsboro;
+    width: 29%;
+    height: 800px;
+    float: left;
+    border-right: 1px solid #333333;
+}
+
+.content {
+    background-color: antiquewhite;
+    text-align: center;
+    border-left: 1px solid #333333;
+    width: 70.9%;
+    height: 800px;
+    float: left;
+}
+
+/* FORMULAIRE */
+
+.titleregister {
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    text-indent: 8px;
+    padding-bottom: 4px;
+}
+
+.formulaire {
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 5px;
+    height: 800px;
+    width: 100%;
+}
+
+.addtask {
+    position: absolute;
+    left: 60%;
+    top: 35%
+}
+.addtask input {
+    border: 2px solid skyblue;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 8px;
+}
+
+.addtask input[type=submit] {
+    background-color: lightgrey;
+    border: 1px solid grey;
+}
+
+.addtask input[type=submit]:hover {
+    transition: all 0.3s;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.basic {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.pass {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: antiquewhite;
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}

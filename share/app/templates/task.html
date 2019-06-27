@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../static/css/task.css" />
+        <title>Epytodo - Task Manager</title>
+    </head>
+    <body>
+        <header class="header">
+        </header>
+            <div class="container">
+            <section class ="sidebar">
+                <nav class="menu">
+                    <ul>
+                        <li class="but"> <a href="/index">Home </a></li>
+                        <li class="but"> <a href="/contact">Contact </a></li>
+                        <li class="but"> <a href="/task">Task Manager </a></li>
+                        <li class="but"> <a href="/signin">Signin </a></li>
+                        <li class="but"> <a href="/register">Register </a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="formulaire">
+                <h1 class="titleregister"> Task Manager </h1>
+                <form action class="addtask" method="POST">
+                    <input name="task" type="text" placeholder="Name of task" class="basic user"/>
+                    <label for "begin">Beginning of task : </label>
+                    <input name="begin" type="date"/>
+                    <label for "end">End of task : </label>
+                    <input name = "end" type="date"/>
+                    <select name="status">
+                        <option value="not started">not started</option>
+                        <option value="in progress">in progress</option>
+                        <option value="done">done</option>
+                    </select>
+                    <input type="submit" />
+                </form>
+                <p class="error"> {{ error }} </p>
+            </section>
+            </div>
+        <footer class="footer">
+            copyright @ Elias Loïc Baptiste
+        </footer>
+    </body>
+</html>

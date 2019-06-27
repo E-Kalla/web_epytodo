@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    background-image: url(../img/epytodo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/* CONTENU */
+
+.sidebar {
+    background-color: gainsboro;
+    width: 29%;
+    height: 800px;
+    float: left;
+}
+
+.content {
+    background-color: antiquewhite;
+    text-align: center;
+    border-left: 1px solid #333333;
+    width: 70.9%;
+    height: 800px;
+    float: left;
+}
+
+/*MENU*/
+
+nav.menu ul li.but a {
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+}
+
+nav.menu ul li.but:hover a {
+    background-color: white;
+    transition: 0.3s all;
+}
+nav.menu ul li.but {
+    list-style-type: none;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    float: left;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
